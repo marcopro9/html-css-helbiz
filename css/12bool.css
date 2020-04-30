@@ -1,25 +1,30 @@
-/* debug */
-.debug .container {
-  border: 1px solid red;
-  height: 200px;
-  background-color: green;
-}
-.debug [class*="col-"]{
-  height: 100%;
-  background-color: pink;
-  border: 1px solid black;
-/* fine debug */
-
 /* inizio reset */
+html {
+  font-size:62.5%;
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 /* fine reset */
 
+/* debug */
+/* .debug .container {
+  border: 1px solid red;
+  height: 60px;
+  background-color: green;
+}
+.debug [class*="col-"]{
+  height: 60px;
+  background-color: pink;
+  border: 1px solid black;
+} */
+/* fine debug */
+
 /* inizio FRAMEWORK */
-.container{
+.container {
   max-width: 1170px;
   margin: 0 auto;
 }

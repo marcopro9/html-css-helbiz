@@ -1,0 +1,69 @@
+/* inizio tipografia */
+body{
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
+}
+h1{
+  font-size: 5.5rem;
+  font-weight: 600;
+}
+p, a{
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+/* fine tipografia */
+/* inizio nav */
+header .menu{
+  height: 7rem;
+}
+header .container .logo{
+  vertical-align: middle;
+  height: 1.8rem;
+}
+header .container .logo, header .container .menu-nav, header .container .lang{
+  display: inline-block;
+  margin-top: 2.5rem;
+}
+header .container .menu-nav li, header .container .lang li{
+  display: inline-block;
+  padding: 0 1rem;
+}
+header .container .lang li:nth-child(even){
+  border-left: 0.1rem solid black;
+  border-right: 0.1rem solid black;
+}
+header .container ul li a{
+  color: black;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+/* fine nav */
+
+/* inizio jumbotron */
+header .jumbotron{
+  background-image: url("../img/hero-bg.jpg");
+  height: 68rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .jumbotron h1, header .jumbotron p{
+  text-align: center;
+  color: #fff;
+}
+header .jumbotron .container h1{
+  padding-top: 24rem;
+}
+header .jumbotron .container p{
+  line-height: 7rem;
+}
+header .jumbotron .container .app-wrapper{
+  width: 35%;
+  margin: 0 auto;
+}
+header .jumbotron .container .appstore{
+  background-color: black;
+  height: 6rem;
+  margin-left: 0.2rem;
+  border-radius: 1rem;
+}
+/* fine jumbotron */
