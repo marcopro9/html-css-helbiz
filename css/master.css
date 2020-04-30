@@ -19,6 +19,7 @@ header .menu{
 header .container .logo{
   vertical-align: middle;
   height: 1.8rem;
+  margin-left: 5rem;
 }
 header .container .logo, header .container .menu-nav, header .container .lang{
   display: inline-block;
@@ -57,7 +58,7 @@ header .jumbotron .container p{
   line-height: 7rem;
 }
 header .jumbotron .container .app-wrapper{
-  width: 35%;
+  width: 383px;
   margin: 0 auto;
 }
 header .jumbotron .container .appstore{
