@@ -38,7 +38,7 @@ html {
 }
 
 /* inizio media query schermi xs */
-@media all and (max-width:768px) {
+@media all and (max-width:767px) {
   /* inizio colonne */
   .col-xs-1{
     width: 100%;
@@ -123,7 +123,7 @@ html {
 /* fine media query schermi xs */
 
 /* inizio media query schermi medi */
-@media screen and (min-width: 769px) and (max-width:992px) {
+@media screen and (min-width: 768px) and (max-width:991px) {
   /* inizio colonne */
   .col-md-1{
     width: 100%;
@@ -208,7 +208,7 @@ html {
 /* fine media query schermi medi */
 
 /* inizio media query schermi grandi */
-@media all and (min-width: 993px) {
+@media all and (min-width: 992px) {
   /* inizio colonne */
   .col-lg-1{
     width: calc(100% / 12);
