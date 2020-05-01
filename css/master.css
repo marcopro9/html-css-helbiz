@@ -7,6 +7,22 @@ h1{
   font-size: 5.5rem;
   font-weight: 600;
 }
+h2{
+  font-size: 4rem;
+  font-weight: 600;
+}
+h3{
+  font-size: 3rem;
+  font-weight: 600;
+}
+h4{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+h5{
+  font-size: 2rem;
+  font-weight: 600;
+}
 p, a{
   font-size: 1.8rem;
   text-decoration: none;
@@ -57,7 +73,7 @@ header .jumbotron .container h1{
 header .jumbotron .container p{
   line-height: 7rem;
 }
-header .jumbotron .container .app-wrapper{
+header .jumbotron .container .app-wrap{
   width: 335px;
   margin: 0 auto;
 }
@@ -65,9 +81,58 @@ header .jumbotron .container .app-wrapper{
 /* fine jumbotron */
 
 /* inizio main */
-  /* inizio two rides*/
+  /* inizio section two rides*/
+  main .rides{
+    margin-top: 5rem;
+    max-width: 1280px;
+  }
+  main .rides h2{
+    margin-top: 7rem;
+  }
+  main .rides p{
+    line-height: 5rem;
+  }
+  main .rides .scooter{
+    margin-right: 4%;
+  }
 
-  /* fine two rides */
+  main .rides .scooter, main .rides .bike{
+    background-color: #fafafa;
+    text-align: center;
+    width: 48%;
+  }
+  main .rides .transport{
+    height: 45rem;
+    margin-bottom: 2rem;
+  }
+  /* fine section two rides */
+
+  /* inizio phone banner */
+  main .phone-banner{
+    background-image: url(../img/HelbizBanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+    margin-top: 5rem;
+  }
+  main .phone-banner .phone-wrap {
+    width: 45rem;
+    margin: 0 auto;
+  }
+  main .phone-banner .phone-wrap .iphone{
+    width: 45rem;
+    margin-top: 15rem;
+  }
+  main .phone-banner .container{
+    margin-top: -23rem;
+  }
+  main .phone-banner .container h5{
+    padding: 2rem 0 0;
+  }
+  main .phone-banner .container p{
+    font-size: 1.5rem;
+  }
+  /* fine phone banner */
 /* fine main */
 
 
