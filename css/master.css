@@ -19,7 +19,7 @@ h4{
   font-size: 2.5rem;
   font-weight: 600;
 }
-h5{
+h4{
   font-size: 2rem;
   font-weight: 600;
 }
@@ -130,7 +130,7 @@ header .jumbotron .container .app-wrap{
   main .phone-banner .container{
     margin-top: -23rem;
   }
-  main .phone-banner .container h5{
+  main .phone-banner .container h4{
     padding: 2rem 0 0;
   }
   main .phone-banner .container p{
@@ -173,6 +173,9 @@ header .jumbotron .container .app-wrap{
   main .infos .bottom-info .apps{
     margin-right: 1.5rem;
   }
+  main .infos .bottom-info .apps a{
+    margin-right: 2rem;
+  }
   main .infos .bottom-info .cities{
     margin-left: 1.5rem;
   }
@@ -212,8 +215,9 @@ header .jumbotron .container .app-wrap{
   }
   main .social .white-space{
     position: absolute;
+    width: 40rem;
     background-color: white;
-    padding: 5rem 10rem;
+    padding: 5rem 5rem;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -242,7 +246,7 @@ header .jumbotron .container .app-wrap{
   footer .top-footer, .middle-footer, .bottom-footer{
     max-width: 1000px;
   }
-  footer h5{
+  footer h4{
     color: #fff;
     margin-bottom: 2rem;
   }
@@ -272,6 +276,7 @@ header .jumbotron .container .app-wrap{
     color: #fff;
     font-size: 1.5rem;
     font-weight: 400;
+    display: inline-block;
   }
   /* fine middle footer */
 
@@ -288,6 +293,28 @@ header .jumbotron .container .app-wrap{
 
 /* inizio media query schermi medi */
 @media screen and (min-width: 768px) and (max-width:991px) {
+  /* inizio tipografia */
+  h1{
+    font-size: 4.5rem;
+    font-weight: 600;
+  }
+  h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+  h3{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  h4{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  p, a{
+    font-size: 1.8rem;
+    text-decoration: none;
+  }
+  /* fine tipografia */
   /* inizio header */
  header .fa-bars{
     font-size: 2rem;
@@ -327,15 +354,13 @@ header .jumbotron .container .app-wrap{
       main .infos .top-info{
         height: 35rem;
         margin: 0 1rem;
+        padding-right: 2rem;
       }
       main .infos .top-info h2{
-        margin: 3rem 0 2rem;
+        margin: 8rem 0 2rem;
       }
       main .infos .top-info a{
         font-size: 1.5rem;
-      }
-      main .infos .bottom-info .apps{
-        margin-left: 1rem;
       }
       main .infos .bottom-info .cities{
         margin-right: 1rem;
@@ -343,12 +368,23 @@ header .jumbotron .container .app-wrap{
       main .infos .bottom-info .apps, main .infos .bottom-info .cities{
         height: 32rem;
       }
+      main .infos .bottom-info .apps{
+        margin-left: 1rem;
+      }
+      main .infos .bottom-info .apps p{
+        margin: 0 1rem;
+      }
       main .infos .bottom-info .apps img{
         height: 16rem;
       }
     /* fine section infos */
-
   /* fine main */
+
+  /* inizio footer */
+    footer .top-footer, footer .middle-footer{
+      padding-left: 3rem;
+    }
+  /* fine footer */
 }
 /* fine media query schermi medi */
 
