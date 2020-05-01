@@ -28,6 +28,7 @@ p, a{
   text-decoration: none;
 }
 /* fine tipografia */
+
 /* inizio nav */
 header .menu{
   height: 7rem;
@@ -84,13 +85,12 @@ header .jumbotron .container .app-wrap{
   /* inizio section two rides*/
   main .rides{
     margin-top: 5rem;
-    max-width: 1280px;
   }
   main .rides h2{
     margin-top: 7rem;
   }
   main .rides p{
-    line-height: 5rem;
+    margin: 2rem 0;
   }
   main .rides .scooter{
     margin-right: 4%;
@@ -112,8 +112,9 @@ header .jumbotron .container .app-wrap{
     background-image: url(../img/HelbizBanner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
     height: 50rem;
-    margin-top: 5rem;
+    margin: 5rem 0 40rem;
   }
   main .phone-banner .phone-wrap {
     width: 45rem;
@@ -133,6 +134,97 @@ header .jumbotron .container .app-wrap{
     font-size: 1.5rem;
   }
   /* fine phone banner */
+
+  /* inizio infos */
+  main .infos .top-info{
+    background-image: url(../img/ScooterHelbiz-2400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45rem;
+    color: white;
+    text-align: center;
+  }
+  main .infos .top-info h2{
+    margin: 13rem 0 2rem;
+  }
+  main .infos .top-info p{
+    margin-bottom: 2rem;
+  }
+  main .infos .top-info a{
+    font-size: 2rem;
+    color: white;
+  }
+  main .infos .bottom-info{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  main .infos .bottom-info a{
+    color: white;
+  }
+  main .infos .bottom-info .apps, main .infos .bottom-info .cities{
+    width: 48%;
+    height: 42rem;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  main .infos .bottom-info .apps p, main .infos .bottom-info .cities p{
+  padding: 2rem 0;
+  }
+  main .infos .bottom-info .apps{
+    margin-right: 4%;
+    position: relative;
+    background: rgb(2,0,36);
+    background: -webkit-linear-gradient(bottom, rgba(2,0,36,1) 0%, rgba(37,46,56,1) 2%, rgba(65,86,106,1) 100%);
+    background: -o-linear-gradient(bottom, rgba(2,0,36,1) 0%, rgba(37,46,56,1) 2%, rgba(65,86,106,1) 100%);
+    background: linear-gradient(to top, rgba(2,0,36,1) 0%, rgba(37,46,56,1) 2%, rgba(65,86,106,1) 100%);
+  }
+  main .infos .bottom-info .apps img{
+    height: 25rem;
+    position:absolute;
+    bottom: 0;
+    left: 17%;
+    right: 17%;
+  }
+  main .infos .bottom-info .cities{
+    background-image: url(../img/Cities-1500.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* fine infos */
+
+  /* inizio social */
+  main .social{
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    background-image: url(../img/Social-Banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 3rem;
+  }
+  main .social .white-space{
+    position: absolute;
+    background-color: white;
+    padding: 5rem 10rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  main .social .white-space h3{
+    margin-bottom: 1rem;
+
+  }
+  main .social .white-space a{
+    color: black;
+    font-size: 3rem;
+    margin-right: 4rem;
+  }
+  main .social .white-space a:last-of-type{
+    margin-right: 0;
+  }
+  /* fine social */
 /* fine main */
 
 
