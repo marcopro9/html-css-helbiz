@@ -55,6 +55,10 @@ header .menu ul li a{
   font-size: 1.3rem;
   font-weight: 400;
 }
+header .fa-bars{
+   font-size: 2rem;
+   margin-top: 2.5rem;
+ }
 /* fine nav */
 
 /* inizio jumbotron */
@@ -72,7 +76,7 @@ header .jumbotron .container h1{
   padding-top: 24rem;
 }
 header .jumbotron .container p{
-  line-height: 7rem;
+  margin: 3rem 0;
 }
 header .jumbotron .container .app-wrap{
   width: 335px;
@@ -315,12 +319,6 @@ header .jumbotron .container .app-wrap{
     text-decoration: none;
   }
   /* fine tipografia */
-  /* inizio header */
- header .fa-bars{
-    font-size: 2rem;
-    margin-top: 2.5rem;
-  }
-  /* fine header */
 
   /* inizio main */
     /* inizio section two rides */
@@ -388,7 +386,103 @@ header .jumbotron .container .app-wrap{
 }
 /* fine media query schermi medi */
 
+/* inizio media query schermi piccoli */
+@media screen and (max-width: 767px){
+  /* inizio tipografia */
+  h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+  }
+  h2{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  h4{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  p, a{
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+  /* fine tipografia */
+  /* inizio main */
+    /* inizio section two rides */
+      main .rides{
+        margin-top: 1rem;
+      }
+      main .rides .bike, main .rides .scooter{
+        margin: 1rem;
+      }
+      main .rides .transport{
+        height: 30rem;
+        margin: 1rem 0;
+      }
+    /* fine section two rides */
 
+    /* inizio section phone banner */
+      main .phone-banner{
+        height: 35rem;
+        margin-bottom: 35rem;
+        margin-top: 1rem;
+      }
+      main .phone-banner .phone-wrap {
+        width: 25rem;
+        margin: 0 auto;
+      }
+      main .phone-banner .phone-wrap .iphone{
+        width: 25rem;
+        margin-top: 15rem;
+      }
+      main .phone-banner .container{
+        margin: -2rem 4rem;
+      }
+    /* fine section phone banner */
+
+    /* inizio section infos */
+      main .infos .top-info{
+        height: 35rem;
+        margin: 0 1rem -2rem;
+        background: linear-gradient(180deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../img/ScooterHelbiz-2400.jpg) 0 no-repeat;
+      	background-position-x: -640px;
+      }
+      main .infos .top-info h2{
+        margin: 8rem 0 2rem;
+      }
+      main .infos .top-info a{
+        font-size: 1.5rem;
+      }
+      main .infos .bottom-info .apps, main .infos .bottom-info .cities{
+        height: 32rem;
+        margin: 0 1rem 1rem;
+      }
+      main .infos .bottom-info .apps p{
+        margin: 0 1rem;
+      }
+      main .infos .bottom-info .apps img{
+        height: 16rem;
+      }
+    /* fine section infos */
+  /* fine main */
+
+  /* inizio footer */
+    footer .top-footer, footer .middle-footer{
+      padding-left: 3rem;
+    }
+    footer nav h4, footer .middle-footer a{
+      margin-top: 3rem;
+    }
+    footer .middle-footer .sicon a{
+      margin-top: 0rem;
+    }
+  /* fine footer */
+}
+
+/* fine media query schermi piccoli */
 
 
 
